@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,400&display=swap");
+body {
+  font-family: "poppins", sans-serif;
+}
+
+nav {
+  align-items: center;
+  height: 50px;
+}
+.purple {
+  color: rgb(104, 73, 230);
+}
+p {
+  color: black;
+  font-size: 2rem;
+  position: absolute;
+  left: 30px;
+  top: -15px;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 17px;
+  left: 33%;
+}
+
+nav ul #list {
+  margin: 0 23px;
+  list-style: none;
+}
+
+nav ul a:hover {
+  color: rgb(104, 73, 230);
+  padding: 5px;
+  border: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+li:first-child {
+  color: rgb(104, 73, 230);
+  font-weight: bold;
+}
+
+#contact {
+  color: white;
+  position: absolute;
+  top: 25px;
+  right: 80px;
+  border-color: rgb(104, 73, 230);
+  background-color: rgb(104, 73, 230);
+  border-radius: 15px;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+#contact:hover {
+  color: white;
+  position: absolute;
+  top: 25px;
+  right: 80px;
+  border-color: rgb(104, 73, 230);
+  background-color: rgb(104, 73, 230);
+  border-radius: 15px;
+  font-size: 1.07rem;
+  padding: 10px 20px;
+}
+
+.firstsection > div {
+  width: 50%;
+}
+
+.leftsection {
+  font-size: 45px;
+  margin: 40px 0;
+
+  position: absolute;
+  top: 150px;
+  left: 80px;
+}
+
+.leftsection .buttons {
+  padding: 0px;
+  margin: 15px;
+}
+
+.leftsection .btn {
+  color: white;
+  padding: 12px;
+  background: white;
+  color: rgb(104, 73, 230);
+  border: 1px solid rgb(104, 73, 230);;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.leftsection .btn:hover {
+  color: white;
+  padding: 12px;
+ 
+  background: rgb(104, 73, 230);
+
+  border: 1px solid ;
+  border-radius: 6px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#element {
+  color: rgb(104, 73, 230);
+}
+
+.image {
+  width: 500px;
+  position: absolute;
+  top: 80px;
+  right: 80px;
+}
+
+.developer {
+  
+  position: absolute;
+  top: 600px;
+  left: 80px;
+  width: 350px;
+}
+.aboutme{
+
+  position: absolute;
+  top: 600px;
+  left: 700px;
+  min-width: 600px;
+border:2px solid red;
+align-items: center;
+min-height: 600px;
+}
+
+#title2{
+
+  font-size:1rem;
+
+}
+
+.khushi{
+  position: absolute;
+  top: 575px;
+  left: 650px
+
+}
+
+.bbb{
+
+
+  position: absolute;
+  top: 800px;
+  left: 650px
+
+}
+
+ul.designbtn {
+
+position: absolute;
+display: flex;
+left:-60px;
+
+}
+ul.designbtn li {
+  color: red;
+  list-style: none;
+margin: 20px;
+}
+
+
+ul.designbtn li a{
+
+
+  color: white;
+  padding: 12px;
+  background-color: rgb(104, 73, 230);
+  border: 1px solid rgb(104, 73, 230);
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+ul.designbtn li a:hover{
+
+
+  color: rgb(104, 73, 230);
+  padding: 12px;
+  background-color: white;
+  border: 1px solid rgb(104, 73, 230);
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+  
+  footer{
+    background-color: rgb(104, 73, 230);
+    position: absolute;
+    top: 1050px;
+    left: 0px;
+    width: 100%;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+  }
+.footer1{
+
+
+  margin: 30px;
+
+
+}
+.footer2{
+
+position:absolute;
+left:50%;
+top:40%;
+
+}
+#go_home a{
+list-style: none;
+text-decoration:none;
+color:rgb(104, 73, 230);
+background-color: white;
+border-radius: 6px;
+padding:15px;
+}
+#go_home a:hover{
+  list-style: none;
+  text-decoration:none;
+  color:red;
+ 
+  border-radius: 6px;
+  padding:15px;
+  }
+
+.footer3{
+
+position: absolute;
+left:1100px;
+top:30%;
+
+}
+
+footer{
+  background-color:rgb(18 18 62);
+  
+}
+.footer{
+  display: flex;
+ padding:23px 122px;
+  justify-content: space-between;
+}
+
+
+#jmn_mvd{
+
+  font-size:1rem;
+}
+
+.footer ul{
+
+  list-style:none;
+}
+
+.footer-first #me{
+font-size:1.5rem;
+
+}
+#contact1
+{
+
+  padding:50px 0;
+}
+
+
+
+.designbtn{
+  display:flex;
+
+}
+.footer-third{
+
+
+  position:absolute;
+  top:40%;
+  left:850px;
+}
